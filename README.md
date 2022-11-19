@@ -11,13 +11,13 @@
 
 <p> $VHI = \alpha * VCI + (1 - \alpha) * TCI $</p><br>
 
-<p>Donde   $NDVI_{max}$, $TCI_{max}$,  $NDVI_{min} y $TCI_{min}$, corresponden al NDVI y TCI máximos y mínimos de toda la serie de tiempo.  $VCI_{j}$, $TCI_{j}$ y  $VHI$, corresponden a la condición de la vegetación, condición de la temperatura y salud de la vegetación mensual. El valor $\alpha$ es el peso para medir la contribución del VCI y TCI para evaluar el estado de sequía. Generalmente, α se establece en 0,5 porque es difícil distinguir la contribución de la temperatura superficial y el NDVI al medir el estrés por sequía. </p><br>
+<p>Donde   $NDVI_{max}$, $TCI_{max}$,  $NDVI_{min}$ y $TCI_{min}$, corresponden al NDVI y TCI máximos y mínimos de toda la serie de tiempo.  $VCI_{j}$, $TCI_{j}$ y  $VHI$, corresponden a la condición de la vegetación, condición de la temperatura y salud de la vegetación mensual. El valor $\alpha$ es el peso para medir la contribución del VCI y TCI para evaluar el estado de sequía. Generalmente, α se establece en 0,5 porque es difícil distinguir la contribución de la temperatura superficial y el NDVI al medir el estrés por sequía. </p><br>
 
-<p> Estos se emplean para iniciar y monitorear la sequía agrícola en relación con el crecimiento de las plantas.</p><br>
+<p> Estos índices se emplean para iniciar y monitorear la sequía agrícola en relación con el crecimiento de las plantas.</p><br>
 
-<p> La práctica recomendada está preparada para monitorear y realizar alertas tempranas de sequía agrícola y se puede adaptar fácilmente utilizando Google Earth Engine.</p><br>
+<p> La práctica recomendada está preparada para monitorear y realizar alertas tempranas de sequía agrícola y se puede adaptar fácilmente utilizando Google Earth Engine (GEE).</p><br>
 
-<p> En este repositorio se muestra el procesamiento de imagenes MODIS para la estimación del LST, VCI y VHI tomando como caso práctico la región de estudio del Patía (Colombia). Los procedimientos tomados para esta caso se basaron en las recomendaciones y procedimientos mencionados por las Naciones Unidas (<a href="https://un-spider.org/advisory-support/recommended-practices/recommended-practice-agriculture-drought-monitoring/in-detail">UN1 </a>, <a href="https://un-spider.org/advisory-support/recommended-practices/recommended-practice-agriculture-drought-monitoring/step-by-step">UN2 </a>)</p><br>
+<p> En este repositorio se muestra el procesamiento de imagenes MODIS para la estimación del LST, VCI y VHI tomando como caso práctico la región de estudio del Patía (Colombia). Los procedimientos tomados para esta caso se basaron en las recomendaciones y procedimientos mencionados por las Naciones Unidas (<a href="https://un-spider.org/advisory-support/recommended-practices/recommended-practice-agriculture-drought-monitoring/in-detail">UN1 </a>, <a href="https://un-spider.org/advisory-support/recommended-practices/recommended-practice-agriculture-drought-monitoring/step-by-step">UN2 </a>). Se empleo el paquete de python Geemap para la ejecución de GEE. Igualmente se emplea R para la transformación de imagenes a archivos de texto. </p><br>
 
 
 
